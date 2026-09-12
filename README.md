@@ -2,6 +2,13 @@
 
 A modern full-stack application boilerplate using Laravel 11, Svelte 4, and Inertia.js with Tailwind CSS.
 
+### Product todos
+
+Live backlog and priority live in Notion (IndieHacking → **Product Todos**):
+https://www.notion.so/b53bade479aa410590fe29fa5a599230
+
+Product Manager owns grooming (Now / Next / Later). There is no live product checklist in git — Notion only. Implementation follows the next *spec’d* item Product sends, not the whole Notion list or GitHub issues.
+
 ## Features
 
 -   🚀 Laravel 11 - PHP's leading web framework
