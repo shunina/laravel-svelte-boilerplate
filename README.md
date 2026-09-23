@@ -1,11 +1,11 @@
 # Laravel Svelte Boilerplate
 
-A modern full-stack application boilerplate using Laravel 11, Svelte 4, and Inertia.js with Tailwind CSS.
+A modern full-stack application boilerplate using Laravel 13, Svelte 5, and Inertia.js with Tailwind CSS.
 
 ## Features
 
--   🚀 Laravel 11 - PHP's leading web framework
--   ⚡ Svelte 4 - The magical disappearing UI framework
+-   🚀 Laravel 13 - PHP's leading web framework
+-   ⚡ Svelte 5 - The magical disappearing UI framework
 -   🔄 Inertia.js - Modern monolithic applications without the complexity
 -   🎨 Tailwind CSS - Utility-first CSS framework
 -   📦 Vite - Next generation frontend tooling
@@ -16,7 +16,7 @@ A modern full-stack application boilerplate using Laravel 11, Svelte 4, and Iner
 ## Requirements
 
 -   PHP 8.2 or higher
--   Node.js 18+ and npm
+-   Node.js 20.19+ (or 22.12+) and npm
 -   Composer
 -   SQLite (default) or your preferred database
 
