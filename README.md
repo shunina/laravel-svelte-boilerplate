@@ -15,7 +15,7 @@ A modern full-stack application boilerplate using Laravel 13, Svelte 5, and Iner
 
 ## Requirements
 
--   PHP 8.2 or higher
+-   PHP 8.3 or higher
 -   Node.js 20.19+ (or 22.12+) and npm
 -   Composer
 -   SQLite (default) or your preferred database
@@ -101,6 +101,8 @@ npm run build
 ```bash
 php artisan migrate --force
 ```
+
+When upgrading an existing deployment across framework versions, also clear compiled caches (`php artisan optimize:clear`). A stale Blade view cache from before an Inertia upgrade renders a blank page with no server error.
 
 ## Features in Detail
 
